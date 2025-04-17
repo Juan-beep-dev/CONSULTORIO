@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- -->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIAR SESION</title> <!-- nombre de la pagina-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- boostrap 5 -->
+    <link rel="stylesheet" href="pagina5.css"> <!-- referencia al archivo de css -->
+
+    <style> 
+        .active {
+            font-weight: bold;
+        }
+    </style> <!-- negritas en style -->
+</head> 
+
+<body> 
+    <nav class="navbar navbar-expand-lg"> <!-- barra de navegacion -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">TRAUMATOLOGO</a>
+            <div class="collapse navbar-collapse" id="navbarNav"> <!-- todo esto es una lista de litas -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a> <!-- envia a otra pagina-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">GENERAR CONSULTA</a> <!-- envia a otra pagina-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">CONOCE NUESTROS ESPECIALISTAS</a> <!-- envia a otra pagina-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">CONOCE NUESTROS SERVICIOS</a> <!-- envia a otra pagina-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina4.html">UBICACION</a> <!-- envia a otra pagina-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina5.html">INICIAR SESION</a> <!-- envia a otra pagina-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5"> <center>
+        <h1 class="text-center"> CREA TU CUENTA</h1>
+        <p>INGRESA LOS DATOS MARCADOS</p> </center>
+
+        <div class="row"> <center>
+            <div class="col-md-4">
+                <input class="form-control" type="text" placeholder="nombre" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Apellido Paterno" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Apellido materno" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Edad" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Sexo" aria-label="default input example"> <br> 
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label"> password </label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+            </div>
+        </center>
+        </div>
+        <button type="button" class="btn btn-success d-block mx-auto">CREAR CUENTA</button>
+        <div class="alert alert-info mt-4" role="alert">
+            DISFRUTA DE NUESTROS BENEFICIOS
+        </div>
+    </div>
+
+    <div class="container mt-5"> <center>
+        <h1 class="text-center"> INICIAR SESION</h1>
+        <p>COMPLETA LOS CAMPOS PARA EMPEZAR</p> </center>
+
+        <div class="row"> <center>
+            <div class="col-md-4">
+                <input class="form-control" type="text" placeholder="nombre" aria-label="default input example"> <br> 
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label"> password </label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
+            </div>
+        </center>
+        </div>
+        <button type="button" class="btn btn-success d-block mx-auto">INICIAR SESION</button>
+        <div class="alert alert-info mt-4" role="alert">
+            GENIAL!
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
