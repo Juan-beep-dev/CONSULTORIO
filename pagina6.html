@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UBICACION</title> <!-- nombre de la pagina-->
+    <title>INICIAR SESION</title> <!-- nombre de la pagina-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- boostrap 5 -->
     <link rel="stylesheet" href="paginaN.css"> <!-- referencia al archivo de css -->
 
@@ -42,29 +42,33 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> <!-- barra de navegacion -->
 
     <div class="container mt-5"> <center>
-        <h1 class="text-center"> UBICACION</h1>
-        <p>VISITANOS ESTAMOS CERCA DE TI</p> </center>
+        <h1 class="text-center">METODO DE PAGO</h1>
+        <p>INGRESA LOS DATOS PARA CONTINUAR</p> </center>
 
         <div class="row"> <center>
             <div class="col-md-4">
-                <img src="img/mapa.PNG" class="img-fluid rounded mx-auto d-block" alt="DIRECCION">
-                <p class="text-center mt-2">Murcia 530, Villarreal, 66427 San Nicolás de los Garza, N.L. 
-                    Telefono de contacto: +528183306927</p>
+                <input class="form-control" type="text" placeholder="nombre" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Segundo nombre" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Apellido Paterno" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="Apellido Materno" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="numero de tarjeta" aria-label="default input example"> <br> 
+                <input class="form-control" type="text" placeholder="fecha de vencimiento" aria-label="default input example"> <br> 
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label"> NIP </label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                  </div>
             </div>
-        </center>
-        </div>
-
-        <div class="alert alert-info mt-4" role="alert">
-            TE INVITAMOS A CREAR UNA CUENTA!
-        </div>
-
-        <button type="button" href="pagina5.html" class="btn btn-success d-block mx-auto">INICIAR SESION</button>
+            <a class="btn btn-primary" href="index.html" role="button">REALIZAR PAGO</a>     
+        </div>     
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> <!-- boostrap -->
 </body>
 
 </html>
